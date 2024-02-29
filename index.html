@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="images">
+</head>
+<body>
+    <nav>
+        <header>
+            <h1>Hilary Of Ophir</h1>
+            <ul class="navigation">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#project" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="burger-menu" id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+    </nav>
+    </header>
+    <section class="hero" id="about">
+        <img src="./images/portfolio.png" alt="Hilary Of Ophir" loading="lazy" class="hero-img">
+
+        <div class="bio animate_animated animate_shakeX">
+            <h2 class="bio-title">About Me</h2>
+            <p>I am a prolific content writer, community mananger and blockchain developer, passionate on fostering and building cutting edge tools and products in the decentralized ecosystem. I specialize in building user-friendly tools for creators and web3 communities and create solutions to
+            problems users face when navigating certain decentralized tools and apps. I  develop, launch and deploy decentralized protocols on various chains.</p>
+        </div>
+    </section>
+
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>I design and develop websites, blockchains and dapps, with s solid backgroung in HTML, CSS and JAVASCRIPT. I am also skilled in various programming language like Solidity, Rust. I have a deep understanding on bringing complex ideas to reality on the web with my skill in content writing, thereby creating user-friendly websites with qaulity interface.</p>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="skills-header">My Top Skills</h2>
+
+        <div class="skills-wrapper">
+            <div class="first-set animate_animated animate_pulse">
+                <img src="images/html.png" alt="" loading="lazy" class="icon-card">
+                
+                <img src="images/css.png" alt="" loading="lazy" class="icon-card">
+
+                <img src="images/jscript.png" alt="" lang="lazy"
+                class="icon-card">
+
+                <img src="images/solidtity.png" alt="" loading="lazy" class="icon-card">
+
+                <img src="images/wordpress.png" alt="" loading="lazy" class="icon-card">
+
+                <img src="images/php.png" alt="" loading="lazy" class="icon-card">
+
+            </div>
+        </div>
+    </section>
+
+    <section class="Projects" id="Projects">
+        <h2 class="projects-title">Some of my Past Projects</h2><br>
+        <div class="projects-container">
+            <div class="projects-container project-card">
+                <a href="https://oxsensei.github.io/Coffee-web/" alt="" loading="lazy" class="Coffee web"></a>
+                
+                <h3 class="projects-title">Coffee-web</h3>
+
+                <p class="project details">This project is coffee website I built in my early  days of programming, it contains a coffee junkie with backgroung image of a coffee, it also contains the home,about, numbers and contact of the coffee company.</p>
+
+                <P>This project also contains the French Roast and featured products in series of form, </P>
+
+                <p>The Columbian Roast coffee and details about it, then the copyright year.</p>
+
+                <a href="https://oxsensei.github.io/Coffee-web/" target="https://oxsensei.github.io/Coffee-web/" class="project-link">Check it Out</a>
+                </div>
+                <div class="projects-container project-card">
+                    
+
+            </div>
+
+            <section class="contact" id="contact">
+                <h2>Get In Touch With me</h2>
+                <div class="contact-form-container">
+                    <div class="contact-form">
+                        <form action="https://formspree.io/f/xyylngw">
+                            <div class="form-control">
+                                <label for="name">Name</label>
+                                <input type="text" 
+                                id="name" 
+                                name="sender-name" 
+                                placeholder="Enter Your Name" 
+                                class="input-field" required>
+
+                            </div>
+                            <div class="form-control">
+                                <label for="email">Email</label>
+                                <input type="email"
+                                id="email"
+                                name="sender-email"
+                                placeholder="Enter Your Email"
+                                class="input-field"
+                                required>
+                        
+
+                            </div>
+
+                            <div class="form-control">
+                                <label for="message">Message</label>
+                                <textarea 
+                                name="message" 
+                                id="message" cols="30" 
+                                rows="10"
+                                placeholder="Enter Your Message"
+                                class="input-field"
+                                required>
+                                </textarea>
+
+                            </div>
+
+                            <input 
+                            type="submit"
+                            value="submit"
+                            id="submit-btn"
+                            class="submit-btn">
+                        </form>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+    </section>
+    <div class="socials">
+        <a href="https://www.x.com/oxsenseic" target="_blank"
+        ><img 
+        src="images/twitter.png" 
+        alt="Twitter"
+        loading="lazy"
+        class="socicon"></a>
+
+        <a href="https://www.linkedin.com/in/oluwaseyi-s-927776216?" target="_blank"
+        ><img
+        src="images/linkedin.png"
+        alt="LinkedIn"
+        loading="lazy"
+        class="socicon"></a>
+
+        <a href="https://t.me/OxsenseiC" target="_blank"
+        ><img
+        src="images/telegram.png"
+        alt="telegram"
+        loading="lazy"
+        class="socicon"></a>
+        
+    </div>
+
+    <footer>
+        <p class="copy">&copy; Copyright 2023</p>
+        <p>
+            
+            <a href="https://x.com/OxsenseiC" target="_blank">Hilary Of Ophir</a>
+        </p>
+    </footer>
+
+    <i class="scroll-up" id="scroll-up"
+    ><img
+    src="images/Arrow.gif"
+    class="socicon up-arrow"
+    alt="scroll-up">
+    </i>
+
+    
+</body>
+<script src="script.js"></script>
+<script src="package.json"></script>
+</html>
